@@ -2,14 +2,16 @@
   // Set zoom for leaflet map on specific pages.
   $(document).bind('leaflet.map', function(e, map, lMap) {
     // Zoom out map on specific node pages.
-    var sidebar = L.control.sidebar('fewo_map_sidebar', {
-      closeButton: false,
-      position: 'left'
-    });
-    lMap.addControl(sidebar);
-    setTimeout(function() {
-      sidebar.show();
-    }, 500);
+    if ($('#fewo_map_sidebar').length) {
+      var sidebar = L.control.sidebar('fewo_map_sidebar', {
+        closeButton: false,
+        position: 'left'
+      });
+      lMap.addControl(sidebar);
+      setTimeout(function() {
+        sidebar.show();
+      }, 500);
+    }
 
     // Add weatcher overlay.
     var weatherLayer = new OsmJs.Weather.LeafletLayer({lang: 'ru'});
