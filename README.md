@@ -2,6 +2,8 @@
 
 Complete drupal installation including database dump/ demo data and all the things to set up a simple leaflet powered drupal map. More information on the session can be found at [2014.drupalcamp-frankfurt.de](https://2014.drupalcamp-frankfurt.de/session/leaflet-geodaten-drupal-visualisieren).
 
+A running installation of this setup can be found at [www.ferienwohnung-harzgerode.de](http://www.ferienwohnung-harzgerode.de/ausflugsziele)
+
 ## Installation
 
 * create new database
