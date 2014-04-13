@@ -1,0 +1,54 @@
+/* line 3, ../sass/screen.scss */
+.views-widget-filter-field_sight_category_tid {
+  width: 100%;
+}
+/* line 5, ../sass/screen.scss */
+.views-widget-filter-field_sight_category_tid .form-item {
+  display: inline-block;
+  margin-right: 5px;
+}
+/* line 8, ../sass/screen.scss */
+.views-widget-filter-field_sight_category_tid .form-item img {
+  vertical-align: middle;
+  padding-right: 5px;
+  width: 25px;
+}
+/* line 13, ../sass/screen.scss */
+.views-widget-filter-field_sight_category_tid .form-item label {
+  font-weight: normal;
+}
+
+/* line 20, ../sass/screen.scss */
+.leaflet-sidebar {
+  width: 250px;
+}
+
+/* line 24, ../sass/screen.scss */
+.leaflet-sidebar.left.visible ~ .leaflet-left {
+  left: 250px;
+}
+
+/* line 28, ../sass/screen.scss */
+.leaflet-sidebar.right.visible ~ .leaflet-right {
+  right: 250px;
+}
+
+/* line 33, ../sass/screen.scss */
+.leaflet-sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 36, ../sass/screen.scss */
+.leaflet-sidebar ul li {
+  list-style-type: none;
+}
+/* line 40, ../sass/screen.scss */
+.leaflet-sidebar h3 {
+  font-size: 16px;
+  margin: 15px 0 0px 0;
+}
+/* line 43, ../sass/screen.scss */
+.leaflet-sidebar h3 img {
+  vertical-align: middle;
+  width: 25px;
+}

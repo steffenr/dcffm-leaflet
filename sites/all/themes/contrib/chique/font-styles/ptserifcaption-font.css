@@ -1,0 +1,12 @@
+@font-face {
+font-family: 'PT Serif Caption';
+src: url('../fonts/PT_Serif-Caption-Web-Regular.eot');
+src: local('PT Serif Caption'), url('../fonts/PT_Serif-Caption-Web-Regular.ttf') format('truetype'); 
+}
+
+@font-face {
+font-family: 'PT Serif Caption';
+src: url('../fonts/PT_Serif-Caption-Web-Italic.eot');
+src: local('PT Serif Caption'), url('../fonts/PT_Serif-Caption-Web-Italic.ttf') format('truetype');
+font-style:italic;
+}

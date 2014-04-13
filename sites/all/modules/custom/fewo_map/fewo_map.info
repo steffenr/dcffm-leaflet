@@ -1,0 +1,6 @@
+name = Fewo map
+description = Customize map (markers per category etc.)
+package = Fewo Harzgerode
+core = 7.x
+version = 7.x-0.1
+project = fewo_map

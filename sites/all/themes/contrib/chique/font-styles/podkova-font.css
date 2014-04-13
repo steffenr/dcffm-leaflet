@@ -1,0 +1,5 @@
+@font-face {
+font-family: 'Podkova';
+src: url('../fonts/Podkova-Regular.eot');
+src: local('Podkova'), url('../fonts/Podkova-Regular.ttf') format('truetype'); 
+}

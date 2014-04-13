@@ -1,0 +1,169 @@
+a, a:hover, li a.active,
+h1, h2, h3, h4, h5, h6,
+p.skinned:first-letter, 
+.block-views .view-promoted-posts .views-field-body:first-letter,
+.page-galleries  .view-galleries .views-field-body:first-letter,
+.contact-form label, .comment-form label, .node-webform label, #user-login-form label, #user-login label,
+#scroll-to-top .scroll-text, a.reservation, #block-search-form input.form-text,
+a.more, #edit-submit, #edit-preview, input.form-submit, #block-subscription-form input.form-submit, #newsletter-form input.form-text,
+.author-title, .testimonial-submitted { color:#2f5f90; }
+
+img.masked:hover, .field-type-image img:hover, .views-field-field-image img:hover, .views-field-field-image img:hover, 
+iframe.masked:hover { border:1px solid #9fcfff;
+ /* shadow */
+-webkit-box-shadow:0px 2px 10px #9fcfff;  -moz-box-shadow:0px 2px 10px #9fcfff;  box-shadow:0px 2px 10px #9fcfff; }
+
+blockquote { background:transparent url('images/blue/blockquote.png') no-repeat top left; }
+
+#header-top { border-bottom: 1px solid #2f5f90; }
+
+#site-name a, #slogan { color:#203347; text-shadow: 0 4px 2px #acb2b8; }
+
+#site-name a:hover { color:#496b8e; }
+
+#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6,
+#subfooter h1, #subfooter h2, #subfooter h3, #subfooter h4, #subfooter h5, #subfooter h6 { color:#b2e7f6; }
+
+#footer a, #footer li a.active, #subfooter a, #subfooter li a.active { color:#358ca5; text-shadow: 0 1px 1px #1e1d27; }
+
+ul.secondary-menu li, #subfooter ul.menu li { border-color:#358ca5; }
+
+#navigation, table th, .poll .bar .foreground { background:#214467; }
+
+/**
+ * Superfish support
+ */
+#navigation .block-superfish ul li.menuparent.sfHover, #navigation .block-superfish ul.main-menu ul { background:#152d43; }
+
+#navigation .block-superfish ul.main-menu ul li:hover, #navigation .block-superfish ul.main-menu ul li.menuparent.sfHover { background:#12263b; }
+
+#navigation .block-superfish ul.main-menu ul li a { border-bottom:1px solid #314558; }
+
+span.sf-description { color:#ededed; }
+
+/*
+* Page
+*/
+#page { background-color:#c1c7cf; }
+
+#page-content { border-top:10px solid #cbd2da;
+/*Box-shadow*/
+-webkit-box-shadow: 0px 1px 5px #b5bcc2; -moz-box-shadow: 0px 1px 5px #b5bcc2; box-shadow: 0px 1px 5px #b5bcc2; }
+
+.block-views .view-promoted-posts .views-row, .team-member, .page-galleries .view-galleries .views-field-view-node, ul.inline.links,
+.contact-form input.form-text, .comment-form input.form-text, .node-webform input.form-text, .contact-form textarea, .comment-form textarea,
+.resizable-textarea .grippie, .filter-wrapper, input, input[type="password"], table, td, .node-webform fieldset,
+.user-picture, .avatar, .comment-inner, #header-top-left ul.menu li, #header-top-right ul.menu li { border-color:#cbd2da; }
+
+.block-views .view-promoted-posts .views-field-view-node, .page-galleries .view-galleries .views-field-view-node,
+.block-views .view-promoted-posts .more-link { background-image: url('images/blue/service-readmore.png'); }
+
+/* 
+* Search
+*/
+#block-search-form, #block-search-form input.form-text, #newsletter-form, #newsletter-form input.form-text { border-color:#979797; }
+
+/* 
+* Comments
+*/
+.comment .submitted, .indented .comment .submitted { background-image:url("images/blue/comment.png"); }
+
+/* 
+* Scroll-to-top
+*/
+#scroll-to-top { background:#cbd2da; }
+
+#scroll-to-top:hover { background:#bfc9d4; }
+
+#scroll-to-top .scroll-text { background:transparent url("images/blue/scrolltotop-arrow.png") no-repeat right; }
+
+/* Reservation */
+a.reservation { background:transparent url('images/blue/reservation.png') no-repeat left center; }
+
+/*
+* Footer
+*/
+#footer { background-color:#1f3a55; }
+
+/*
+* Subfooter 
+*/
+#subfooter { background: #12263b; }
+
+#subfooter-inside { color:#358ca5; }
+
+/*
+* Latest events 
+*/
+.block-views .view-events .views-row { border-bottom:1px solid #22466a; }
+
+.block-views .view-events .views-row:after { border-bottom:1px solid #152d43; }
+
+.block-views .view-events .views-row-last, .block-views .view-events .views-row-last:after { border-bottom:none; }
+
+/*
+* Testimonials
+*/
+.testimonial-content { background-image: url('images/blue/testimonial.png'); }
+
+/*
+* Company Info list
+*/
+ul.company-info li.phone { background:url('images/blue/company-phone.png') no-repeat left;}
+
+ul.company-info li.email { background:url('images/blue/company-email.png') no-repeat left; }
+
+/*
+* Our team members
+*/
+.team-member-email { background-image:url('images/blue/email.png'); }
+
+/*
+* Social
+*/
+ul.social-bookmarks li.facebook a { background:url('images/blue/social-media-facebook.png') no-repeat center bottom; }
+
+ul.social-bookmarks li.twitter a { background:url('images/blue/social-media-twitter.png') no-repeat center bottom; }
+
+ul.social-bookmarks li.flickr a { background:url('images/blue/social-media-flickr.png') no-repeat center bottom; }
+
+ul.social-bookmarks li.youtube a { background:url('images/blue/social-media-youtube.png') no-repeat center bottom; }
+
+/*
+* Twitter updates
+*/
+.twitter-title { background:url('images/blue/twitter-title-bg.png') no-repeat 245px; color:#b2e7f6; }
+
+.twtr-widget { background:url('images/blue/twitter-bg.png') no-repeat; padding:20px 10px; margin:-20px 0 0 0; }
+
+#footer .twtr-widget .twtr-tweet a { color:#b2e7f6 !important; }
+
+/* Slideshow */
+#slideshow-navigation-container { /* Fallback for web browsers that doesn't support RGBa */ background: rgb(21,45,67);
+/* RGBa with opacity */ background: rgba(21,45,67,0.7); }
+
+#slideshow-navigation a { border: 3px solid #2f5f90; }
+
+#slideshow-navigation li.activeSlide a { border: 3px solid #358ca5; }
+
+.slider-text { /* Fallback for web browsers that doesn't support RGBa */ background: rgb(11,26,41);
+/* RGBa with opacity */ background: rgba(11,26,41,0.8) ;}
+
+.slider-text-submitted { color:#ffffff; }
+
+a#previous { background:transparent url('images/blue/previous.png') no-repeat; }
+
+a#next { background:transparent url('images/blue/next.png') no-repeat; }
+
+.resizable-textarea .grippie { border:1px solid #cbd2da; background-color:#cbd2da; }
+
+a.more, #edit-submit, #edit-preview, input.form-submit, #block-subscription-form input.form-submit { border:1px solid #abb9c8; background: #cbd2da; 
+/* shadow */
+-webkit-box-shadow: 0px 1px 1px #b5bcc2; -moz-box-shadow: 0px 1px 1px #b5bcc2; box-shadow: 0px 1px 1px #b5bcc2; }
+
+a.more:hover, #edit-submit:hover, #edit-preview:hover, input.form-submit:hover, #block-subscription-form input.form-submit:hover {  background: #bfc9d4; }
+
+/*
+* Subscribe
+*/
+#newsletter-form input.form-submit { background-image:url('images/blue/newsletter-button.png'); }

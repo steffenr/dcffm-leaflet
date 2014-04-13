@@ -1,0 +1,48 @@
+
+
+.views-widget-filter-field_sight_category_tid {
+  width: 100%;
+  .form-item {
+    display: inline-block;
+    margin-right: 5px;
+    img {
+      vertical-align: middle;
+      padding-right: 5px;
+      width: 25px;
+    }
+    label {
+      font-weight: normal;
+    }
+  }
+}
+
+
+.leaflet-sidebar {
+  width: 250px;
+}
+
+.leaflet-sidebar.left.visible ~ .leaflet-left {
+  left: 250px;
+}
+
+.leaflet-sidebar.right.visible ~ .leaflet-right {
+  right: 250px;
+}
+
+.leaflet-sidebar {
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style-type: none;
+    }
+  }
+  h3 {
+    font-size: 16px;
+    margin: 15px 0 0px 0;
+    img {
+      vertical-align: middle;
+      width: 25px
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@font-face {
+font-family: 'Asap';
+src: url('../fonts/Asap-Regular.eot');
+src: local('Asap'), url('../fonts/Asap-Regular.ttf') format('truetype'); 
+}
+
+@font-face {
+font-family: 'Asap';
+src: url('../fonts/Asap-Bold.eot');
+src: local('Asap'), url('../fonts/Asap-Bold.ttf') format('truetype');
+font-weight:bold;
+}
+
+@font-face {
+font-family: 'Asap';
+src: url('../fonts/Asap-Italic.eot');
+src: local('Asap'), url('../fonts/Asap-Italic.ttf') format('truetype');
+font-style:italic;
+}
+
+@font-face {
+font-family: 'Asap';
+src: url('../fonts/Asap-BoldItalic.eot');
+src: local('Asap'), url('../fonts/Asap-BoldItalic.ttf') format('truetype');
+font-weight:bold;
+font-style:italic;
+}

@@ -1,0 +1,23 @@
+name = Drupalcamp Frankfurt
+description = Bartik subtheme for leaflet presentation
+core = 7.x
+base theme = bartik
+
+stylesheets[all][] = css/screen.css
+
+regions[header_left] = Header top left
+regions[header_right] = Header top right
+regions[header] = Header
+regions[navigation] = Navigation
+regions[banner] = Banner
+regions[highlighted] = Highlighted
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[footer_first] = Footer first
+regions[footer_second] = Footer second
+regions[footer_third] = Footer third
+regions[footer] = Footer
+regions[footer_bottom_right] = Footer bottom right
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom

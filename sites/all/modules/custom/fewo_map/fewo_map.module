@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * Implements hook_leaflet_views_alter_points_data_alter().
+ */
+function fewo_map_leaflet_views_alter_points_data_alter($result, &$points) {
+  // Get node object of result.
+  $wrapped_node = entity_metadata_wrapper('node', $result->nid);
+  // Check if we have an image attached to category.
+  $category = $wrapped_node->field_sight_category->value();
+  if (!empty($category)) {
+    $category_icon = $wrapped_node->field_sight_category->field_sight_icon->value();
+    if (!empty($category_icon)) {
+      $icon_url = file_create_url($category_icon['uri']);
+      // Set icon as marker icon for point.
+      $points[0]['icon']['iconUrl'] = $icon_url;
+      $points[0]['icon']['iconAnchor']['x'] = 15;
+      $points[0]['icon']['iconAnchor']['y'] = 20;
+      $points[0]['icon']['popupAnchor']['x'] = 0;
+      $points[0]['icon']['popupAnchor']['y'] = -10;
+      $points[0]['entity_id'] = $result->nid;
+    }
+  }
+}
+
+/**
+ * Implements template_preprocess_html().
+ */
+function fewo_map_preprocess_html(&$variables) {
+  // We add CSS / JS for leaflet sidebar controls.
+  drupal_add_css(drupal_get_path('module', 'fewo_map') . '/js/leaflet-sidebar/src/L.Control.Sidebar.css');
+  drupal_add_js(drupal_get_path('module', 'fewo_map') . '/js/leaflet-sidebar/src/L.Control.Sidebar.js');
+
+  // Add custom weather layer from openweathermap.
+  drupal_add_js('http://openweathermap.org/js/leaflet-layer.js', 'external');
+
+  // Add custom javascript for handling js stuff.
+  drupal_add_js(drupal_get_path('module', 'fewo_map') . '/js/fewo_map.js');
+}

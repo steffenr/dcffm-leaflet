@@ -1,0 +1,12 @@
+@font-face {
+font-family: 'Rokkitt';
+src: url('../fonts/Rokkitt-Regular.eot');
+src: local('Rokkitt'), url('../fonts/Rokkitt-Regular.ttf') format('truetype'); 
+}
+
+@font-face {
+font-family: 'Rokkitt';
+src: url('../fonts/Rokkitt-Bold.eot');
+src: local('Rokkitt'), url('../fonts/Rokkitt-Bold.ttf') format('truetype');
+font-weight:bold;
+}

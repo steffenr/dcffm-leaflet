@@ -1,0 +1,12 @@
+@font-face {
+font-family: 'Sorts Mill Goudy';
+src: url('../fonts/SortsMillGoudy-Regular.eot');
+src: local('Sorts Mil Goudy'), url('../fonts/SortsMillGoudy-Regular.ttf') format('truetype'); 
+}
+
+@font-face {
+font-family: 'Sorts Mil Goudy';
+src: url('../fonts/SortsMillGoudy-Italic.eot');
+src: local('Sorts Mill Goudy'), url('../fonts/SortsMillGoudy-Italic.ttf') format('truetype'); 
+font-style:italic;
+}
