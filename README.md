@@ -1,6 +1,6 @@
 # Leaflet and Drupal (DrupalCamp Frankfurt 2014)
 
-Complete drupal installation including database dump/ demo data and all the things to set up a simple leaflet powered drupal map. More information on the session can be found at [2014.drupalcamp-frankfurt.de](https://2014.drupalcamp-frankfurt.de/session/leaflet-geodaten-drupal-visualisieren).
+Complete drupal installation including database dump/ demo data and all the things to set up a simple leaflet powered drupal map. More information on the session can be found at [slideshare ](http://de.slideshare.net/steffenruehlmann/leaflet-geodaten).
 
 A running installation of this setup can be found at [www.ferienwohnung-harzgerode.de](http://www.ferienwohnung-harzgerode.de/ausflugsziele)
 
